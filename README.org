@@ -1,4 +1,16 @@
 #+title: Readme
 
-* My dotfiles
-https://www.youtube.com/watch?v=tBoLDpTWVOM
+This is repository containing my dotfiles.
+
+[[https://yadm.io/][Yadm]] is my dotfiles manager of choice. If you know how to use Git, you already know how to use yadm.
+
+
+* Desktop Environment
+I use [[https://regolith-desktop.com/][Regolith]] as my desktop environment. It's based on Ubuntu and uses i3 as window manager.
+
+** i3
+[[file:.config/regolith/i3/config::bindsym $mod+$i3-wm.binding.balance exec $i3-wm.program.balance][config]]
+
+* Shell
+Zsh with Oh My Zsh framework.
+Main config file: [[file:.zshrc::export INSOMNIA_PATH="test"][.zshrc]]
