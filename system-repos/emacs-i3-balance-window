@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ $(xdotool getactivewindow getwindowname) == *"Doom Emacs" ]]; then
+    emacsclient -e "(balance-windows)" &
+else
+    ~/.pyenv/shims/i3_balance_workspace
+fi
